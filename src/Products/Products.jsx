@@ -1,5 +1,5 @@
 import './Products.css';
-import { AifillStar } from 'react-icons/ai';
+import { AiFillStar } from "react-icons/ai";
 import { BsFillBagHeartFill } from 'react-icons/bs';
 
 function Products() {
@@ -21,11 +21,7 @@ function Products() {
             <h3 className="card-title">Shoe</h3>
             {/* Card Reviews */}
             <section className="card-reviews">
-              <AifillStar />
-              <AifillStar />
-              <AifillStar />
-              <AifillStar />
-              <AifillStar />
+              <AiFillStar />
               <span className="total-reviews">4</span>
             </section>
             {/* Card Price */}
