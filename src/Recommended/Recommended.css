@@ -1,0 +1,18 @@
+.recommended-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-left: 20rem
+}
+
+.recommended-container h2 {
+    font-size: 1.5rem;
+}
+
+.recommended-container .action-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

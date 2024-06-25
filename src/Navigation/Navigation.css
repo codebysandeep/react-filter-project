@@ -1,14 +1,18 @@
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   border-bottom: 2px solid #f3f3f3;
-  padding: 20px;
-  z-index: 999;
-  margin-left: 2rem;
 }
 
-input {
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  z-index: 999;
+  margin-right: 2rem;
+  margin-left: 20rem;
+}
+
+.nav-container .search-input input{
   padding: 12px 20px;
   border: none;
   background: #f7f6f6;
@@ -19,7 +23,15 @@ input {
   width: 14rem;
 }
 
-.nav-icons {
+.nav-container .profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}
+
+.nav-container .profile-container a.nav-icons {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 2rem;
